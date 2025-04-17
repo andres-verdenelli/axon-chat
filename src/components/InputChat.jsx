@@ -3,7 +3,7 @@ import IconButton from './IconButton'
 
 function InputChat() {
   return (
-    <div className='border border-neutral-300 rounded-lg flex p-2'>
+    <div className='border border-neutral-300 rounded-lg flex p-2 mb-4'>
       <input
         className='w-full focus:outline-none ml-1'
         type='text'

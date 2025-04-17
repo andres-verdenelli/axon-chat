@@ -1,6 +1,6 @@
 function Conversation() {
   return (
-    <div>
+    <div className='grow'>
       <p>conversation</p>
     </div>
   )

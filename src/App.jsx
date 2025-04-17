@@ -1,12 +1,16 @@
 import './App.css'
-import Chat from './components/Chat'
+import Conversation from './components/Conversation'
 import Header from './components/Header'
+import InputChat from './components/InputChat'
 
 function App() {
   return (
-    <div className=''>
+    <div className='h-dvh border flex flex-col'>
       <Header />
-      <Chat />
+      <div className='px-4 grow flex flex-col'>
+        <Conversation />
+        <InputChat />
+      </div>
     </div>
   )
 }
