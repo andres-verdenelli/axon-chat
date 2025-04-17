@@ -5,9 +5,9 @@ import InputChat from './components/InputChat'
 
 function App() {
   return (
-    <div className='h-dvh border flex flex-col'>
+    <div className='h-[100dvh] flex flex-col overflow-hidden'>
       <Header />
-      <div className='px-4 grow flex flex-col'>
+      <div className='px-4 flex-1 flex flex-col overflow-hidden'>
         <Conversation />
         <InputChat />
       </div>
