@@ -5,13 +5,15 @@ import InputChat from './components/InputChat'
 
 function App() {
   return (
-    <div className='h-[100dvh] flex flex-col overflow-hidden'>
-      <Header />
-      <div className='px-4 flex-1 flex flex-col overflow-hidden'>
-        <Conversation />
-        <InputChat />
+    <>
+      <div className='h-[100dvh] flex flex-col overflow-hidden'>
+        <Header />
+        <div className='px-4 flex-1 flex flex-col overflow-hidden'>
+          <Conversation />
+          <InputChat />
+        </div>
       </div>
-    </div>
+    </>
   )
 }
 
